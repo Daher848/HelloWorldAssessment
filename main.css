@@ -22,18 +22,11 @@ body {
     margin-top: 30px;
 }
 
-.inputBox {
+.inputBox, .dropDownBox {
     
     margin: 10px 0 10px 0;
     width: 300px;
     height: 30px;
-}
-
-.dropDownBox {
-    
-    margin: 10px 0 10px 0;
-    width: 200px;
-    height: 20px;
 }
 
 h1 {
@@ -76,15 +69,16 @@ table {
 
 #register {
     
-    font-size: 14px;
+    font-family: "Comic Sans MS", cursive, sans-serif;	
+    align-content: center;
+    font-size: 17px;
     color: black;
-    font-weight: bold;
     background-color: #B4B7BA;
-    height: 30px;
-    width: 125px;
-    margin: 60px 40px 0 0;
-    float: right;
+    height: 35px;
+    width: 150px;
+    margin-top: 50px;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
