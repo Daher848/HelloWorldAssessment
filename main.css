@@ -1,0 +1,94 @@
+#formBody {
+    
+    margin: 0 auto;
+    background-color: #2E4A62;
+    height: 800px;
+    width: 600px;
+}
+
+.error {
+    
+    color: red;
+    font-size: 14px;
+}
+
+body {
+    
+    background-color: #B4B7BA;
+}
+
+#registrationForm {
+    
+    margin-top: 30px;
+}
+
+.inputBox {
+    
+    margin: 10px 0 10px 0;
+    width: 300px;
+    height: 30px;
+}
+
+.dropDownBox {
+    
+    margin: 10px 0 10px 0;
+    width: 200px;
+    height: 20px;
+}
+
+h1 {
+    
+    font-family: "Comic Sans MS", cursive, sans-serif;	
+    padding-top: 25px;
+    color: white;
+}
+
+h2, h3 {
+    color: black;
+    text-align: center;
+}
+
+th {
+    
+    background: #DFDFDF;
+    font-weight: bold;
+}
+
+td {
+    
+    background: #FAFAFA;
+    text-align: center;
+}
+
+td, th {
+    
+    border: 1px solid;
+}
+
+table {
+    
+    margin-top: 50px;
+    width: 1000px;
+    color: #333;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#register {
+    
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    background-color: #B4B7BA;
+    height: 30px;
+    width: 125px;
+    margin: 60px 40px 0 0;
+    float: right;
+    border-radius: 4px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    
+  -webkit-appearance: none; 
+  margin: 0; 
+}
